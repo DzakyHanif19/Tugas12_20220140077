@@ -1,0 +1,123 @@
+/* General Styles */
+body {
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    padding: 0;
+    background: #0f0f0f;
+    color: #e0e0e0;
+  }
+  
+  nav {
+    background: #2b2b2b;
+    color: #ff00ff;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 2px solid #ff00ff;
+  }
+  
+  h1 {
+    margin: 0;
+    font-weight: 700;
+    text-shadow: 0 0 10px #ff00ff;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #1c1c1c;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(255, 0, 255, 0.5);
+    border: 1px solid #ff00ff;
+  }
+  
+  label {
+    display: block;
+    margin: 15px 0 5px;
+    font-weight: 600;
+    color: #00ff00;
+    text-shadow: 0 0 5px #00ff00;
+  }
+  
+  input[type="text"], 
+  textarea, 
+  select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #00ff00;
+    border-radius: 4px;
+    background: #333;
+    color: #e0e0e0;
+    font-size: 16px;
+    box-shadow: 0 0 10px #00ff00;
+  }
+  
+  .radio-group {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+  }
+  
+  .radio-group input {
+    margin-right: 10px;
+  }
+  
+  .radio-group label {
+    margin-right: 20px;
+    font-weight: 400;
+    color: #00ff00;
+  }
+  
+  button {
+    background: #ff00ff;
+    color: #0f0f0f;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 0 10px #ff00ff;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background: #e000e0;
+  }
+  
+  footer {
+    background: #2b2b2b;
+    color: #ff00ff;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 2px solid #ff00ff;
+  }
+  
+  .footer .container-footer {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .footer p {
+    margin: 5px 0;
+    text-shadow: 0 0 10px #ff00ff;
+  }
+  
+  /* Time Container */
+  .time-container {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #00ff00;
+    text-shadow: 0 0 5px #00ff00;
+  }
+  
+  /* Additional Styles for Date Picker */
+  .flatpickr-input {
+    cursor: pointer;
+    background: #333;
+    border: 1px solid #00ff00;
+    color: #e0e0e0;
+    box-shadow: 0 0 10px #00ff00;
+  }
+  
